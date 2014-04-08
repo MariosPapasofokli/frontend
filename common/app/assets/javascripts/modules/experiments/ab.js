@@ -6,7 +6,6 @@ define([
 
     //Current tests
     'common/modules/experiments/tests/external-links-new-window',
-    'common/modules/experiments/tests/abcd',
     'common/modules/experiments/tests/football-liveblog-truncation'
 ], function (
     common,
@@ -15,13 +14,11 @@ define([
     mvtCookie,
 
     ExternalLinksNewWindow,
-    Abcd,
     FootballLiveblogTruncation
 ) {
 
     var TESTS = [
             new ExternalLinksNewWindow(),
-            new Abcd(),
             new FootballLiveblogTruncation()
        ],
        participationsKey = 'gu.ab.participations';

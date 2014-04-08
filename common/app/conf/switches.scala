@@ -288,11 +288,6 @@ object Switches extends Collections {
     safeState = Off, sellByDate = new DateMidnight(2014, 4, 28)
   )
 
-  val ABAbcd = Switch("A/B Tests", "ab-abcd",
-    "If this switch is on, an AB test runs to validate the collection ab test data",
-    safeState = Off, sellByDate = new DateMidnight(2014, 4, 28)
-  )
-
   val FootballLiveblogTruncation = Switch("A/B Tests", "ab-football-liveblog-truncation",
     "If you swith cthis switch on, an AB test will run to truncate football liveblogs.",
     safeState = Off, sellByDate = new DateMidnight(2014, 4, 21)
@@ -406,7 +401,6 @@ object Switches extends Collections {
     OmnitureVerificationSwitch,
     IndiaRegionSwitch,
     ABExternalLinksNewWindow,
-    ABAbcd,
     FootballLiveblogTruncation,
     MemcachedSwitch,
     IncludeBuildNumberInMemcachedKey
